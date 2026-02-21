@@ -9,7 +9,8 @@ import io
 
 # ---------------------------
 # 🔑 Replace with your FREE API key from HuggingFace
-API_KEY = "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"
+import os 
+API_KEY = os.getenv("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")
 API_URL = "https://router.huggingface.co/hf-inference/models/facebook/bart-large-cnn"
 headers = {"Authorization": f"Bearer {API_KEY}"}
 # ---------------------------
