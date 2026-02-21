@@ -1,0 +1,6 @@
+streamlit
+scikit-learn
+numpy
+PyPDF2
+requests
+reportlab
